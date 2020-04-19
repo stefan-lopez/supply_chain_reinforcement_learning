@@ -1,5 +1,7 @@
 # Supply Chain Reinforcement Learning Agent
 
+!['images/supply_chain_demo.gif'](images/supply_chain_demo.gif)
+
 ## Project File Overview
 
 - [`demo/animation.py`](demo/animation.py) main file for running the demo animations for your program.
