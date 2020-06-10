@@ -54,22 +54,19 @@ pip install -r requirements.txt
 To run the demo version with weights I have already trained (or with your own weights):
 
 ```
-cd demo
-python animation.py
+python demo/animation.py
 ```
 
 To run your own training regimen:
 
 ```
-cd training
-python train_a2c.py
+python training/train_a2c.py
 ```
 
 To test against the weights file you have generated during training:
 
 ```
-cd training
-python testing_environment.py
+python training/testing_environment.py
 ```
 
 To track your agent's learning in tensorboard, type in the following then go to http://localhost:6006/ in your web browser:
