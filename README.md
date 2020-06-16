@@ -60,7 +60,7 @@ python demo/animation.py
 To run your own training regimen:
 
 ```
-python training/train_a2c.py
+python training/train_a2c.py --name NAME_YOUR_RUN_ANYTHING
 ```
 
 To test against the weights file you have generated during training:
