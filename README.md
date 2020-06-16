@@ -5,7 +5,7 @@
 ## Project File Overview
 
 - [`demo/animation.py`](demo/animation.py) main file for running the demo animations for your program.
-- [`training/train_a2c.py`](training/train_a2c.py) main file for training an A2C model to learn optimum decisions within your supply chain.
+- [`training/train_a2c.py`](training/train_a2c.py) main file for training an A2C model to learn optimal decisions within your supply chain.
 - [`training/testing_environment.py`](training/testing_environment.py) a script for testing the models you have trained to see how well they perform.
 
 ## Requirements
@@ -14,7 +14,7 @@ You’ll need the following:
 
 - [Python 3.6.8](https://www.python.org/downloads/release/python-368/) (other Python 3 versions may work as well)
 - Python's PIP package installer
-- GPU with CUDA 10.0 is recommended and was installed on my machine while developing and is encouraged for significantly faster training.
+- If you have an Nvidia GPU it might be a good idea to use tensorflow-gpu in case you want to try this against other algorithms besides A2C, otherwise the regular tensorflow package will be sufficient since the neural network used is too small to see a benefit from running on the GPU.
 
 
 ## Getting Started
